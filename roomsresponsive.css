@@ -1,0 +1,549 @@
+@media screen and (max-width:600px) {
+    .options{
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        flex-direction: column;
+        height: 90vh;
+        width: 50%;
+        height: 250px;
+        justify-content: start;
+        align-items: center;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 7px;
+    }
+    header img{
+        margin-left: 15%;
+        height: 35px;
+        width: 35px;
+    }
+    .option{
+        width: 100%;
+        padding: 10px;
+    }
+    .option .sp1{
+        font-size: 14px;
+    }
+    .option .sp2{
+        font-size: 11px;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        position: absolute;
+        width: 150px;
+        /* top: 15px; */
+        right: 30px;
+        padding: 0;
+        top: 10px;
+    }
+    .login a h3{
+        font-size: 12px;
+        /* width: 70px; */
+    }
+    .login a i{
+        display: inline;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 70px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 12px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 12px;
+        padding: 10px;
+        border: none;
+
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 12px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .card-right-bottom{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    .card img{
+        width: 100%;
+        /* height: 200px; */
+    }
+    .card .card-right{
+        width: 100%;
+        padding: 10px;
+    }
+    .card-container{
+        width: 100%;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 16px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .footer2-1,.footer2-2,.footer2-3{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer2-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer2-2 p,.footer2-3 p{
+        padding: 8px;
+    }
+    .footer3{
+        display: none;
+    }
+    .footer2-2,.footer2-3{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 250px;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:980px) {
+    .options{
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        flex-direction: column;
+        height: 90vh;
+        width: 50%;
+        height: 250px;
+        justify-content: start;
+        align-items: center;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 7px;
+    }
+    header img{
+        margin-left: 15%;
+        height: 35px;
+        width: 35px;
+    }
+    .option{
+        width: 100%;
+        padding: 10px;
+    }
+    .option .sp1{
+        font-size: 14px;
+    }
+    .option .sp2{
+        font-size: 11px;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        position: absolute;
+        width: 150px;
+        /* top: 15px; */
+        right: 30px;
+        padding: 0;
+        top: 10px;
+    }
+    .login a h3{
+        font-size: 12px;
+        /* width: 70px; */
+    }
+    .login a i{
+        display: inline;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 70px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 12px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 12px;
+        padding: 10px;
+        border: none;
+
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 12px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .card-right-bottom{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    .card img{
+        width: 100%;
+        /* height: 200px; */
+    }
+    .card .card-right{
+        width: 100%;
+        padding: 10px;
+    }
+    .card-container{
+        width: 100%;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 16px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .footer2-1{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer2-2,.footer2-3{
+        width: 45%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer2-2 p,.footer2-3 p{
+        padding: 8px;
+    }
+    .footer3{
+        display: none;
+    }
+    .footer4{
+        display: flex;
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width:980px) and (max-width:1240px) {
+    .options{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin-right: 75px;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 12px;
+    }
+    header img{
+        margin-left: 10%;
+        height: 45px;
+        width: 45px;
+    }
+    .option{
+        width: 100%;
+        padding: 0;
+    }
+    .option .sp1{
+        font-size: 14px;
+        display: inline;
+    }
+    .option .sp2{
+        display: none;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        padding: 0;
+        position: absolute;
+        right: 30px;
+        top: 13px;
+    }
+    .login a h3{
+        font-size: 16px;
+    }
+    .login a i{
+        display: inline;
+        font-size: 20px;
+        padding: 10px 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 100px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 15px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+ 
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 15px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .card-right-bottom{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+    .card img{
+        width: 100%;
+        padding: 5px;
+        /* height: 200px; */
+    }
+    .card .card-right{
+        width: 100%;
+        padding: 10px;
+    }
+    .card-container{
+        width: 100%;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 16px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        padding: 5px;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    /* .footer2-1{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer2-2,.footer2-3{
+        width: 45%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    } */
+    .footer2-2 p,.footer2-3 p{
+        padding: 8px;
+    }
+    .footer3{
+        display: none;
+    }
+    .footer4{
+        display: flex;
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 300px;
+    }
+}

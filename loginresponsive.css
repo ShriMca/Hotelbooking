@@ -1,0 +1,16 @@
+@media screen and (max-width:450px) { 
+    .card-container{
+        width: 80%;
+        padding-right: 40px;
+    }
+    .card-container label,input{
+        width: 100%;
+    }
+    .icons{
+        display: inline;
+        font-size: 12px;
+    }
+    .card-container span{
+        display: block;
+    }
+}

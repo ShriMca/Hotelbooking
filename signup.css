@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overall{
+    background: linear-gradient(to right, white 10%,black 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+}
+.card-container{
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 6px 0 6px yellow, 0 4px 6px yellow;
+}
+.card-container label,input {
+    width: 260px;
+    height: 30px;
+    margin: 8px;
+    text-align: left;
+    border: none;
+    display: block;
+}
+input{
+    border-bottom: 1.5px solid black;
+    padding-left: 10px;
+}
+input:focus{
+    background-color: white;
+    outline: none;
+}
+h2{
+    padding-bottom: 12px;
+    color: blue;
+}
+p{
+    margin: 15px;
+}
+a{
+    cursor: pointer;
+    color: blue;
+}
+a:hover{
+    color: purple;
+}
+button{
+    margin: 15px;
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}i{
+    padding: 15px 8px;
+    text-align: left;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}

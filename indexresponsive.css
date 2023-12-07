@@ -1,0 +1,623 @@
+@media screen and (max-width:600px) {
+    .options{
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        flex-direction: column;
+        height: 90vh;
+        width: 50%;
+        height: 250px;
+        justify-content: start;
+        align-items: center;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 7px;
+    }
+    header img{
+        margin-left: 15%;
+        height: 35px;
+        width: 35px;
+    }
+    .option{
+        width: 100%;
+        padding: 10px;
+    }
+    .option .sp1{
+        font-size: 14px;
+    }
+    .option .sp2{
+        font-size: 11px;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        position: absolute;
+        width: 150px;
+        /* top: 15px; */
+        right: 30px;
+        padding: 0;
+        top: 10px;
+    }
+    .login a h3{
+        font-size: 12px;
+        /* width: 70px; */
+    }
+    .login a i{
+        display: inline;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 70px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 12px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 12px;
+        padding: 10px;
+        border: none;
+
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 12px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .offerimg{
+        padding: 10px 5%;
+    }
+    .img1{
+        width: 100%;
+        height: 300px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .img2{
+        width: 100%;
+        height: 150px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .cardcontainer{
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .card-container1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .card{
+        width: 280px;
+        height: 280px;
+        margin-top: 15px;
+    }
+    .card img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card-container2{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .card-container2 h1{
+        font-size: 18px;
+    }
+    ul{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto;
+        margin-top: 15px;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 16px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .footer2-1,.footer2-2,.footer2-3{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer3{
+        display: none;
+    }
+    .footer4{
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 250px;
+    }
+}   
+@media screen and (min-width:600px) and (max-width:900px) {
+    .options{
+        position: fixed;
+        left: -100%;
+        top: 40px;
+        flex-direction: column;
+        height: 90vh;
+        width: 50%;
+        height: 250px;
+        justify-content: start;
+        align-items: center;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 12px;
+    }
+    header img{
+        margin-left: 15%;
+        height: 45px;
+        width: 45px;
+    }
+    .option{
+        width: 100%;
+        padding: 10px;
+    }
+    .option .sp1{
+        font-size: 14px;
+    }
+    .option .sp2{
+        font-size: 11px;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        padding: 0;
+        position: absolute;
+        right: 30px;
+        top: 13px;
+    }
+    .login a h3{
+        font-size: 16px;
+    }
+    .login a i{
+        display: inline;
+        font-size: 20px;
+        padding: 10px 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 100px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 15px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 15px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .offerimg{
+        padding: 10px 5%;
+    }
+    .img1{
+        width: 100%;
+        height: 400px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .img2{
+        width: 100%;
+        height: 200px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .cardcontainer{
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .card-container1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .card{
+        width: 280px;
+        height: 280px;
+        margin-top: 15px;
+    }
+    .card img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card-container2{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .card-container2 h1{
+        font-size: 24px;
+    }
+    ul{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto;
+        margin-top: 15px;
+    }
+    li{
+        font-size: 18px;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 16px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .footer2-1,.footer2-2,.footer2-3{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer3{
+        display: none;
+    }
+    .footer4{
+        flex-direction: column;
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 350px;
+    }
+}   
+@media screen and (min-width:900px) and (max-width:1240px) {
+    .options{
+       width: 70%;
+       display: flex;
+       align-items: center;
+       margin-right: 75px;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+     }
+    .menu{
+        display: inline;
+        position: absolute;
+        left: 3%;
+        top: 12px;
+    }
+    header img{
+        margin-left: 10%;
+        height: 45px;
+        width: 45px;
+    }
+    .option{
+        width: 100%;
+        padding: 0;
+    }
+    .option .sp1{
+        font-size: 14px;
+        display: inline;
+    }
+    .option .sp2{
+        display: none;
+    }
+    .selectarea1{
+        display: none;
+    }
+    .login a{
+        padding: 0;
+        position: absolute;
+        right: 30px;
+        top: 13px;
+    }
+    .login a h3{
+        font-size: 16px;
+    }
+    .login a i{
+        display: inline;
+        font-size: 20px;
+        padding: 10px 7px;
+    }
+    .searchtab h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .searchtab{
+        padding: 20px;
+    }
+    .serachbar{
+        width: 95%;
+        min-height: 100px;
+        background-color: white;
+        border-radius: 7px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .serachbar input{
+        width: 50%;
+        height: 50%;
+        font-size: 15px;
+        padding: 0;
+        border: none;
+    }
+    .room{
+        height: 50%;
+        width: 50%;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+
+    }
+    .serachbar button{
+        height: 50%;
+        width: 30%;
+        font-size: 15px;
+        padding: 0 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .offerimg{
+        padding: 10px 5%;
+    }
+    .img1{
+        width: 100%;
+        height: 400px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .img2{
+        width: 100%;
+        height: 200px;
+        padding: 5px 0px;
+        border-radius: 0px;
+    }
+    .cardcontainer{
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .card-container1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .card{
+        width: 280px;
+        height: 280px;
+        margin-top: 15px;
+    }
+    .card img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .card h3{
+        font-size: 26px;
+    }
+    .card-container2{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .card-container2 h1{
+        font-size: 26px;
+    }
+    ul{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto auto;
+        margin-top: 15px;
+    }
+    li{
+        font-size: 24px;
+    }
+    .footer{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .footer1{
+        padding: 5px;
+        gap: 15px;
+    }
+    .footer1 h1{
+        font-size: 22px;
+    }
+    .card-container2-1{
+        margin-left: 30%;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .footer2{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .footer2-1{
+        width: 100%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer2-2,.footer2-3{
+        width: 45%;
+        margin: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer4{
+        padding: 5px;
+        gap: 15px;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer2-1 img{
+        width: 450px;
+        height: 70px;
+    }
+    .footer3-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer3-1 div{
+        width: 220px;
+        margin-top: 15px;
+    }
+}   
